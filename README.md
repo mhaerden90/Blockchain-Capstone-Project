@@ -22,6 +22,8 @@ Once the token has been verified you will place it on a blockchain market place 
 | Step 7: Generate Proof | ~/zokrates generate-proof |
 | Step 8: Export Verifier | ~/zokrates export-verifier|
 
+
+
 ## Deploying
 set metmask mnemonic `.secret` file and place it in `eth-contracts/`
 `truffle migrate --network rinkeby --reset`
@@ -51,9 +53,9 @@ Fill out the mmemonic and infura key in the variables and run script.
  NOTE: Could not buy them with different account as each token is worth 1 ETH and I cannot seem to retrieve 5 ETH from a faucet anywhere.. they are up for sale though.
 
 # Versions
-*Truffle v5.0.2 (core: 5.0.2)
-*Solidity v0.5.0 (solc-js)
-*Node v10.7.0
+* Truffle v5.0.2 (core: 5.0.2)
+* Solidity v0.5.0 (solc-js)
+* Node v10.7.0
 
 # Project Resources
 
