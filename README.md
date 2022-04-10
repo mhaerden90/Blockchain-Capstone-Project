@@ -4,9 +4,6 @@ You will be minting your own tokens to represent your title to the real estate p
 Before you mint a token, you need to verify your own the property.
 You will use zk-SNARKs to create a verification system which can prove you have title to the property without revealing that specific information on the property.
 Once the token has been verified you will place it on a blockchain market place (OpenSea) for others to purchase.
-The detail steps of the project is as follows:
-1. building of the ERC 721 tokens for the real estate homes
-2. compiling and integrating zokrates into the tokens that is just built
 
 # Prerequisits
 ## npm install
@@ -43,7 +40,7 @@ Fill out the mmemonic and infura key in the variables and run script.
 | SolnSquareVerifier | 0x7e1A742f37Ba64D237f0AD38490F2bd29263Eb32 |
 
 
-- OpenSea MarketPlace Storefront link's
+- OpenSea links
  * Item 1: https://testnets.opensea.io/assets/0x7e1a742f37ba64d237f0ad38490f2bd29263eb32/0
  * Item 2: https://testnets.opensea.io/assets/0x7e1a742f37ba64d237f0ad38490f2bd29263eb32/1
  * Item 3: https://testnets.opensea.io/assets/0x7e1a742f37ba64d237f0ad38490f2bd29263eb32/2
@@ -54,9 +51,9 @@ Fill out the mmemonic and infura key in the variables and run script.
  NOTE: Could not buy them with different account as each token is worth 1 ETH and I cannot seem to retrieve 5 ETH from a faucet anywhere.. they are up for sale though.
 
 # Versions
-Truffle v5.0.2 (core: 5.0.2)
-Solidity v0.5.0 (solc-js)
-Node v10.7.0
+*Truffle v5.0.2 (core: 5.0.2)
+*Solidity v0.5.0 (solc-js)
+*Node v10.7.0
 
 # Project Resources
 
